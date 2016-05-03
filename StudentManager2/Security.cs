@@ -31,7 +31,6 @@ namespace StudentManager2
             {
                 if (username == p.Login && password == p.Pass)
                 {
-                    //return true;
                     Who = p.Type;
                     if (Who == "teacher")
                     {
@@ -47,7 +46,6 @@ namespace StudentManager2
                 else
                     Who = "error";                                
             }
-            //return false;
 
         }      
     }

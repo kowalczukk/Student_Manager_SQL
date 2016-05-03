@@ -15,7 +15,6 @@ namespace StudentManager2
     
     public partial class Main : Form
     {
-        //StudentStorage ss = new StudentStorage();
         List<cStudent> StudentsList = StudentStorage.getAllStudents();
 
         public Main()
