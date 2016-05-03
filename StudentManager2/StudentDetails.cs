@@ -165,12 +165,7 @@ namespace StudentManager2
         private void ReloadData()
         {
             student = StudentStorage.getStudent(Convert.ToInt32(idBox.Text));
-
-            //int n = markGridView.Rows.Add();
-            //markGridView.Rows[n].Cells[0].Value = numberBox.Text;
-            //markGridView.Rows[n].Cells[1].Value = typeBox.Text;
-            //markGridView.Rows[n].Cells[2].Value = student.Id.ToString();
-            
+           
         }
 
         private void ResetForm()
@@ -180,61 +175,3 @@ namespace StudentManager2
         }
     }
 }
-    //public class cStudent : cOsoba
-    //{
-    //    Dictionary<int, Mark> oceny = new Dictionary<int, Mark>();
-
-    //    public cStudent() {
-            
-    //    }
-    //    public List<Mark> Oceny {
-    //        get {
-    //            return new List<Mark>(oceny.Values);
-    //        }
-    //    }
-    //}
-    //public class cNauczyciel : cOsoba
-    //{
-    //    Dictionary<int, Mark> przedmioty = new Dictionary<int, Mark>();
-
-    //    public cStudent()
-    //    {
-
-    //    }
-    //    public List<Mark> Przedmioty
-    //    {
-    //        get
-    //        {
-    //            return new List<Mark>(oceny.Values);
-    //        }
-    //    }
-    //}
-    //public class cOsoba { //: IEnumerable<cOsoba> {
-    //    #region deklaracje zmiennych
-    //    int _id = 0;
-    //    string _imie = "", _nazwisko = "";
-    //    #endregion
-
-    //    public cOsoba() { }
-    //    public cOsoba(string imie, string nazwisko, int id)
-    //    {
-    //        _id = id;
-    //        _imie = imie;
-    //        _nazwisko = nazwisko;
-    //    }
-    //    public int Id { get { return _id; } }
-    //    public string Imie {
-    //        get { return _imie; }
-    //        //set { _imie = value; }
-    //    }
-    //    public string Nazwisko {
-    //        get { return _nazwisko; }
-    //        //set { _nazwisko = value; }
-    //    }
-    //    public string Nazwa 
-    //    {
-    //        get { return _imie + " " + _nazwisko; }
-    //    }
-    //}
-
-
